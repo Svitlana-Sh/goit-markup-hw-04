@@ -141,7 +141,6 @@ body {
   width: 16px;
   height: 12px;
   fill: #757575;
-  margin-left: 10px;
 }
 
 .contact-icon:hover,
@@ -226,6 +225,7 @@ body {
   height: 120px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
 .card {
@@ -393,6 +393,12 @@ body {
 
 .bottom-box {
   display: flex;
+  align-items: baseline;
+  column-gap: 70px;
+}
+
+.footer-left {
+  display: flex;
   flex-direction: column;
 }
 
@@ -442,6 +448,11 @@ body {
 .bottom-link:hover,
 .bottom-link:focus {
   color: #2196f3;
+}
+
+.join-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .join {
@@ -522,6 +533,12 @@ body {
 
 .card-projects {
   flex-basis: calc((100% - 60px) / 3);
+}
+
+.card-projects:hover,
+.card-projects:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card-projects:not(:nth-child(3n)) {
